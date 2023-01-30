@@ -12,7 +12,7 @@ website:
       - href: ./files/Research.qmd
         text: Research
       - href: ./files/CV.pdf
-        text: CV
+        text: Resume
       - href: ./files/Publications.qmd
         text: Papers and Presenations
 
