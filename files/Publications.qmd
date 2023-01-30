@@ -1,0 +1,38 @@
+---
+title: "Publications and Presentations"
+format:
+  html:
+    code-fold: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(dplyr)
+library(kableExtra)
+
+```
+
+## Publications
+
+Lawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. "Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime." *Atmospheric Chemistry and Physics* 23 (2): 1619--39. <https://doi.org/10.5194/acp-23-1619-2023>.
+
+Lawrence, Christopher, and Huiting Mao. 2019. "Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska." *Atmosphere* 10 (4): 187. <https://doi.org/10.3390/atmos10040187>.
+
+## Presentations
+
+```{r}
+Table<-tribble(~Date, ~Title, ~Meeting, ~Location, ~`Presentation Type`,
+  2023,"Investigating the Contribution of Cloud Water Chemistry to Organic Acids at Whiteface Mountain", "American Meteorological Society's Annual Meeting", "Denver, CO", "Oral Presentation",
+  2022, "The Emerging Role of Organic Carbon in Atmospheric Chemistry at Whiteface Mountain", "National Atmospheric Depositions Program's Annual Meeting", "Knoxville, TN", "Oral Presentation",
+  2022, "Investigating the Chemistry of Water Soluble Organic Gases in Upstate New York Using WRF-Chem and Chemical Box Modeling",  "American Meteorological Society's Annual Meeting", "Virtual", "Oral Presentation",
+  2021, "Changes in Atmospheric Aqueous Chemistry at Whiteface Mountain:  Shifting focus from Acid rain", "National Atmospheric Deposition Program", "Virtual", "Oral Presentation",
+  2021, "Investigating Characteristic Air Masses Affecting Organic and Inorganic Cloud Water Composition at Whiteface Mountain Using HYSPLIT and Cluster Analysis", "American Meteorological Society's Annual Meeting", "Virtual", "Oral Presentation",
+  2020, "Emergence of  New Chemical Regime: Growing Abundance of Water Soluble Organic Carbon Associated with a Growing Ion Imbalance", "American Meteorological Society's Annual Meeting", "Boston, MA", "Oral Presenation",
+  2019, "Emergence of a New Chemical Regime: Growing Abundance of Water Soluble Organics in Cloud Water Linked with a Growing Ion Imbalance", "American Association for Aerosol Research Annual Meeting", "Portland, OR", "Poster",
+  2019, "Monitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY", "American Meteorological Society's Annual Meeting", "Phoenix, AZ","Poster",
+  2018, "Monitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY", "National Atmospheric Deposition Program's Annual Meeting", "Albany, NY", "Poster")
+
+kableExtra::kable(Table, format = "html")%>%
+   kable_styling() 
+```

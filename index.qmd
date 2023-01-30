@@ -1,0 +1,17 @@
+---
+title: "Bio"
+image: "./images/Me.jpg"
+about: 
+  template: jolla
+  links: 
+    - icon: envelope
+      url: "mailto:celawrence@albany.edu"
+    - icon: twitter
+      url: "https://twitter.com/chrislaw08"
+    - text: ORCID
+      url: https://orcid.org/0000-0002-4845-340X
+    - text: Lance Lab Website
+      url: https://research.asrc.albany.edu/facstaff/lance/
+---
+
+Hello! My name is Christopher Lawrence. I'm currently a PhD candidate at the Atmospheric Sciences Research Center (ASRC) at the University of Albany. I am currently assisting the Lance Lab with the cloud water monitoring site at the summit of Whiteface Mountain in the Adirondack Mountains. I'm currently using observations and modeling techniques to investigate the role of cloud chemical processing on organic carbon in the cloud and particle phase, and how they interact with other inorganic species. My research interests include biogeochemistry of organic carbon (particularly in the atmospheric aqueous phase), organic carbon and nitrogen interactions, wet deposition, the carbon cycle, and statistics.

@@ -1,0 +1,21 @@
+---
+title: "Current Research"
+format:
+  html:
+    code-fold: true
+---
+
+## Cloud Water Monitoring Program
+
+I help assist the cloud water monitoring program at the summit of Whiteface Mountain that has been operating since 1994. The site was founded to monitor acid deposition and the progress of the Clean Air Act Amendments of the 1990s. Acid deposition is cause by the formation for strong inorganic acids such has sulfuric acid (H~2~SO~4~) and nitric acid (HNO~3~). In particular, sulfuric acid largely produced from sulfur dioxide (SO~2~) , a gas released from the combustion of coal. Thanks to regulation, acid deposition has decreased signficantly and Adirondack ecosystems are starting to show signs of recovery. However, another class of compounds may be on the rise: organic carbon. Organic carbon is a complex class of molecules that are the fundamental building blocks of life. As sulfuric acid and nitric acid have decreased, organic carbon is making a larger fraction of particulate matter.
+
+![](/images/CloudCollector.png){fig-align="left" width="361"}
+
+```{=html}
+<iframe height="500" width="100%" frameborder="no" src="https://larebear08.shinyapps.io/CloudWaterApp/"> </iframe>
+```
+## Organic Acid Measurements
+
+## Source Apportionment
+
+## Cloud Water Chemical Modeling

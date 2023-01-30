@@ -1,0 +1,29 @@
+---
+title: "So Why Did You Make This?"
+format: html
+about:
+  template: jolla
+  links: 
+    - text: email
+      url: "mailto:larrylovesmusic@gmail.com"
+    - icon: spotify
+      url: "https://open.spotify.com/user/1213285150?si=9659b21b724b4a54"
+---
+
+Hello! Thanks for visiting Larry Loves Music. My name is Chris Lawrence but a lot of people in my life call me Larry. For a long time, I've been pretty obsessed with music. In highschool I had the opportunity to do a research project of my choosing. For whatever, I chose to research the impact the Beatles had on popular music. For this project, I got to spend my lunch periods reading about the Beatles and listening to all kind of music. This triggered an interest in music that I had never felt before and would change the way I listened to music in the future.
+
+# My First List
+
+Fast forward several years. it was approaching finals week in my junior year at SUNY-ESF (go Mighty Oaks!), I unsurprisingly was finding myself in the library quite frequently either studying or working on final class projects. I was looking for something to help things bit more bearable. While procrastinating, I stumbled on to two different music related wesbites. The first was [Album of the Year](https://www.albumoftheyear.org/). Album of the year is social network/blog type website not dissimilar to sites like [Rate Your Music](https://rateyourmusic.com/). However, an important difference that also serves as a database for both reviews from music critics and users of the website. This serves as useful aggregator of what music people are interested in. Since occur in early December, it was also "list season"; where major publications release their lists for the top albums of the year. Album of the Year also compiles this information with point totals to provide a consensus album of the year. I found this whole process incredibly fascinating and a lot of fun, particularly when an album you like is seeing a lot of love.
+
+The second outlet is from an NPR podcast that I had already been regularly listening to for about year, [All Songs Considered](https://www.npr.org/sections/allsongs/). This is a wonderful music podcast hosted by Bob Boilen (the same person who created Tiny Desk Concerts) and Robin Hilton. They had just released a pod discussing listener picks for the best albums of the year. For whatever reason, I found (and still find this...) fascinating. This got me thinking about what my favorite albums of the past year were and inspired me to make my own list. I then wrote down some 30 albums, and listened to each one during finals week and picked my 10 favorites. This was the beginning of a yearly tradition at the end of the year where I listen to a barrage of music to make my list.
+
+# Going Forward
+
+This website has 3 major purpose:
+
+1.  Compile all of my lists and playlists into one place for ease of access
+2.  Improve coding and writing skills with a website/pseudoblog project
+3.  Make it easier to share my favorite music with a potentially larger audience
+
+This website is a major work in process. I'm still working out many bugs in the website, filling out its contents, and just making things look pretty. I will be constantly be editing things as there will no doubt be typos everywhere. I'm also not particularly adept of this style of writing so this a learning experience for me. I absolutely would love to hear any suggestions from people on what else I should do for this website. I'm thinking about a blog as well but not sure what exactly to blog about. Stay tuned!

@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bio",
+    "section": "",
+    "text": "Hello! My name is Christopher Lawrence. I’m currently a PhD candidate at the Atmospheric Sciences Research Center (ASRC) at the University of Albany. I am currently assisting the Lance Lab with the cloud water monitoring site at the summit of Whiteface Mountain in the Adirondack Mountains. I’m currently using observations and modeling techniques to investigate the role of cloud chemical processing on organic carbon in the cloud and particle phase, and how they interact with other inorganic species. My research interests include biogeochemistry of organic carbon (particularly in the atmospheric aqueous phase), organic carbon and nitrogen interactions, wet deposition, the carbon cycle, and statistics."
+  },
+  {
+    "objectID": "files/CV.html",
+    "href": "files/CV.html",
+    "title": "Christopher E. Lawrence",
+    "section": "",
+    "text": "Some stuff about me\n\nI poisoned myself doing research.\nI was the first woman to win a Nobel prize\nI was the first person and only woman to win a Nobel prize in two different sciences.\n\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                  when    with                where          why      \n  <chr>                 <chr>   <chr>               <chr>          <list>   \n1 Informal studies      1889-91 Flying University   Warsaw, Poland <chr [0]>\n2 Master of Physics     1893    Sorbonne Université Paris, France  <chr [0]>\n3 Master of Mathematics 1894    Sorbonne Université Paris, France  <chr [0]>\n\n\n\n\nNobel Prizes\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  <glue>                   <dbl> <chr>                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…\n\n\n\n\nPublications\n\n\n\nC:/Users/chris/AppData/Local/Temp/RtmpItSESf/file4e9c401e307d.yaml"
+  },
+  {
+    "objectID": "files/Publications.html",
+    "href": "files/Publications.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Lawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. “Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime.” Atmospheric Chemistry and Physics 23 (2): 1619–39. https://doi.org/10.5194/acp-23-1619-2023.\nLawrence, Christopher, and Huiting Mao. 2019. “Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska.” Atmosphere 10 (4): 187. https://doi.org/10.3390/atmos10040187."
+  },
+  {
+    "objectID": "files/Publications.html#presentations",
+    "href": "files/Publications.html#presentations",
+    "title": "Publications and Presentations",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n \n  \n    Date \n    Title \n    Meeting \n    Location \n    Presentation Type \n  \n \n\n  \n    2023 \n    Investigating the Contribution of Cloud Water Chemistry to Organic Acids at Whiteface Mountain \n    American Meteorological Society's Annual Meeting \n    Denver, CO \n    Oral Presentation \n  \n  \n    2022 \n    The Emerging Role of Organic Carbon in Atmospheric Chemistry at Whiteface Mountain \n    National Atmospheric Depositions Program's Annual Meeting \n    Knoxville, TN \n    Oral Presentation \n  \n  \n    2022 \n    Investigating the Chemistry of Water Soluble Organic Gases in Upstate New York Using WRF-Chem and Chemical Box Modeling \n    American Meteorological Society's Annual Meeting \n    Virtual \n    Oral Presentation \n  \n  \n    2021 \n    Changes in Atmospheric Aqueous Chemistry at Whiteface Mountain:  Shifting focus from Acid rain \n    National Atmospheric Deposition Program \n    Virtual \n    Oral Presentation \n  \n  \n    2021 \n    Investigating Characteristic Air Masses Affecting Organic and Inorganic Cloud Water Composition at Whiteface Mountain Using HYSPLIT and Cluster Analysis \n    American Meteorological Society's Annual Meeting \n    Virtual \n    Oral Presentation \n  \n  \n    2020 \n    Emergence of  New Chemical Regime: Growing Abundance of Water Soluble Organic Carbon Associated with a Growing Ion Imbalance \n    American Meteorological Society's Annual Meeting \n    Boston, MA \n    Oral Presenation \n  \n  \n    2019 \n    Emergence of a New Chemical Regime: Growing Abundance of Water Soluble Organics in Cloud Water Linked with a Growing Ion Imbalance \n    American Association for Aerosol Research Annual Meeting \n    Portland, OR \n    Poster \n  \n  \n    2019 \n    Monitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY \n    American Meteorological Society's Annual Meeting \n    Phoenix, AZ \n    Poster \n  \n  \n    2018 \n    Monitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY \n    National Atmospheric Deposition Program's Annual Meeting \n    Albany, NY \n    Poster"
+  },
+  {
+    "objectID": "files/Research.html",
+    "href": "files/Research.html",
+    "title": "Current Research",
+    "section": "",
+    "text": "I help assist the cloud water monitoring program at the summit of Whiteface Mountain that has been operating since 1994. The site was founded to monitor acid deposition and the progress of the Clean Air Act Amendments of the 1990s. Acid deposition is cause by the formation for strong inorganic acids such has sulfuric acid (H2SO4) and nitric acid (HNO3). In particular, sulfuric acid largely produced from sulfur dioxide (SO2) , a gas released from the combustion of coal. Thanks to regulation, acid deposition has decreased signficantly and Adirondack ecosystems are starting to show signs of recovery. However, another class of compounds may be on the rise: organic carbon. Organic carbon is a complex class of molecules that are the fundamental building blocks of life. As sulfuric acid and nitric acid have decreased, organic carbon is making a larger fraction of particulate matter."
+  },
+  {
+    "objectID": "files/Research.html#organic-acid-measurements",
+    "href": "files/Research.html#organic-acid-measurements",
+    "title": "Current Research",
+    "section": "Organic Acid Measurements",
+    "text": "Organic Acid Measurements"
+  },
+  {
+    "objectID": "files/Research.html#source-apportionment",
+    "href": "files/Research.html#source-apportionment",
+    "title": "Current Research",
+    "section": "Source Apportionment",
+    "text": "Source Apportionment"
+  },
+  {
+    "objectID": "files/Research.html#cloud-water-chemical-modeling",
+    "href": "files/Research.html#cloud-water-chemical-modeling",
+    "title": "Current Research",
+    "section": "Cloud Water Chemical Modeling",
+    "text": "Cloud Water Chemical Modeling"
+  },
+  {
+    "objectID": "files/TestShiny.html",
+    "href": "files/TestShiny.html",
+    "title": "Iris K-Means Clustering",
+    "section": "",
+    "text": "── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.4 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.0      ✔ stringr 1.4.1 \n✔ readr   2.1.2      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\n\n\n\n\nX Variable\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\n\n\n\n\n\n\nY Variable\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\n\n\n\n\n\n\nCluster count"
+  },
+  {
+    "objectID": "Untitled/Untitled.html",
+    "href": "Untitled/Untitled.html",
+    "title": "Christopher E. Lawrence",
+    "section": "",
+    "text": "Some stuff about me\n\nI poisoned myself doing research.\nI was the first woman to win a Nobel prize\nI was the first person and only woman to win a Nobel prize in two different sciences.\n\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                  when    with                where          why      \n  <chr>                 <chr>   <chr>               <chr>          <list>   \n1 Informal studies      1889-91 Flying University   Warsaw, Poland <chr [0]>\n2 Master of Physics     1893    Sorbonne Université Paris, France  <chr [0]>\n3 Master of Mathematics 1894    Sorbonne Université Paris, France  <chr [0]>\n\n\n\n\nNobel Prizes\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  <glue>                   <dbl> <chr>                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…\n\n\n\n\nPublications\n\n\n\nC:/Users/chris/AppData/Local/Temp/Rtmp6pSrqL/fileaa4280c6c41.yaml"
+  },
+  {
+    "objectID": "files/ResearchFinal.html",
+    "href": "files/ResearchFinal.html",
+    "title": "Current Research",
+    "section": "",
+    "text": "I help assist the cloud water monitoring program at the summit of Whiteface Mountain that has been operating since 1994. The site was founded to monitor acid deposition and the progress of the Clean Air Act Amendments of the 1990s. Acid deposition is cause by the formation for strong inorganic acids such has sulfuric acid (H2SO4) and nitric acid (HNO3). In particular, sulfuric acid largely produced from sulfur dioxide (SO2) , a gas released from the combustion of coal. Thanks to regulation, acid deposition has decreased signficantly and Adirondack ecosystems are starting to show signs of recovery. However, another class of compounds may be on the rise: organic carbon. Organic carbon is a complex class of molecules that are the fundamental building blocks of life. As sulfuric acid and nitric acid have decreased, organic carbon is making a larger fraction of particulate matter."
+  },
+  {
+    "objectID": "files/ResearchFinal.html#organic-acid-measurements",
+    "href": "files/ResearchFinal.html#organic-acid-measurements",
+    "title": "Current Research",
+    "section": "Organic Acid Measurements",
+    "text": "Organic Acid Measurements"
+  },
+  {
+    "objectID": "files/ResearchFinal.html#source-apportionment",
+    "href": "files/ResearchFinal.html#source-apportionment",
+    "title": "Current Research",
+    "section": "Source Apportionment",
+    "text": "Source Apportionment"
+  },
+  {
+    "objectID": "files/ResearchFinal.html#cloud-water-chemical-modeling",
+    "href": "files/ResearchFinal.html#cloud-water-chemical-modeling",
+    "title": "Current Research",
+    "section": "Cloud Water Chemical Modeling",
+    "text": "Cloud Water Chemical Modeling"
+  }
+]

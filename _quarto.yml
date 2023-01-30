@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Christopher E. Lawrence"
+  reader-mode: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: ./files/Research.qmd
+        text: Research
+      - href: ./files/CV.pdf
+        text: CV
+      - href: ./files/Publications.qmd
+        text: Papers and Presenations
+
+    right: 
+      - icon: envelope
+        href: mailto:celawrence@albany.edu 
+      - icon: github
+        href: https://github.com/ChrisLaw08
+      - text: Lance Lab
+        href: https://research.asrc.albany.edu/facstaff/lance/
+        
+title-block-banner: true   
+format:
+  html:
+    theme:
+      dark: 
+      - darkly
+      - stylefile.scss
+      light: 
+      - journal
+      - stylefile.scss
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
+
+

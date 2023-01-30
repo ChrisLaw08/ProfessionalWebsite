@@ -1,0 +1,13 @@
+name: CloudWaterApp
+title: CloudWaterApp
+username:
+account: larebear08
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8164133
+bundleId: 6788285
+url: https://larebear08.shinyapps.io/CloudWaterApp/
+when: 1675059444.64184
+lastSyncTime: 1675059444.64185
+asMultiple: FALSE
+asStatic: FALSE
