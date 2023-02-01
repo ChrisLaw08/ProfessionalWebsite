@@ -14,7 +14,7 @@ website:
       - href: ./files/CV.pdf
         text: Resume
       - href: ./files/Publications.qmd
-        text: Papers and Presenations
+        text: Papers and Presentations
 
     right: 
       - icon: envelope
