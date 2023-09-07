@@ -5,7 +5,7 @@ format:
     code-fold: true
 ---
 
-Explore how the chemistry of Whiteface Mountain cloud water has changed over nearly 3 decades of monitoring. Many changes have occurred over this time periods, with the decreasing influence of acid rain and the growing importance of organic carbon.
+Explore how the chemistry of Whiteface Mountain cloud water has changed over nearly 3 decades of monitoring. Many changes have occurred over this time period, with the decreasing influence of acid rain and the growing importance of organic carbon.
 
 ```{=html}
 <iframe height="500" width="115%" frameborder="yes" src="https://larebear08.shinyapps.io/CloudWaterApp/"> </iframe>
