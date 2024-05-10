@@ -1,52 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "So Why Did You Make This?",
-    "section": "",
-    "text": "Hello! Thanks for visiting Larry Loves Music. My name is Chris Lawrence but a lot of people in my life call me Larry. For a long time, I’ve been pretty obsessed with music. In highschool I had the opportunity to do a research project of my choosing. For whatever, I chose to research the impact the Beatles had on popular music. For this project, I got to spend my lunch periods reading about the Beatles and listening to all kind of music. This triggered an interest in music that I had never felt before and would change the way I listened to music in the future.\n\nMy First List\nFast forward several years. it was approaching finals week in my junior year at SUNY-ESF (go Mighty Oaks!), I unsurprisingly was finding myself in the library quite frequently either studying or working on final class projects. I was looking for something to help things bit more bearable. While procrastinating, I stumbled on to two different music related wesbites. The first was Album of the Year. Album of the year is social network/blog type website not dissimilar to sites like Rate Your Music. However, an important difference that also serves as a database for both reviews from music critics and users of the website. This serves as useful aggregator of what music people are interested in. Since occur in early December, it was also “list season”; where major publications release their lists for the top albums of the year. Album of the Year also compiles this information with point totals to provide a consensus album of the year. I found this whole process incredibly fascinating and a lot of fun, particularly when an album you like is seeing a lot of love.\nThe second outlet is from an NPR podcast that I had already been regularly listening to for about year, All Songs Considered. This is a wonderful music podcast hosted by Bob Boilen (the same person who created Tiny Desk Concerts) and Robin Hilton. They had just released a pod discussing listener picks for the best albums of the year. For whatever reason, I found (and still find this…) fascinating. This got me thinking about what my favorite albums of the past year were and inspired me to make my own list. I then wrote down some 30 albums, and listened to each one during finals week and picked my 10 favorites. This was the beginning of a yearly tradition at the end of the year where I listen to a barrage of music to make my list.\n\n\nGoing Forward\nThis website has 3 major purpose:\n\nCompile all of my lists and playlists into one place for ease of access\nImprove coding and writing skills with a website/pseudoblog project\nMake it easier to share my favorite music with a potentially larger audience\n\nThis website is a major work in process. I’m still working out many bugs in the website, filling out its contents, and just making things look pretty. I will be constantly be editing things as there will no doubt be typos everywhere. I’m also not particularly adept of this style of writing so this a learning experience for me. I absolutely would love to hear any suggestions from people on what else I should do for this website. I’m thinking about a blog as well but not sure what exactly to blog about. Stay tuned!"
-  },
-  {
-    "objectID": "AnotherTestOJS.html",
-    "href": "AnotherTestOJS.html",
-    "title": "Penguins",
-    "section": "",
-    "text": "A simple example based on Allison Horst’s Palmer Penguins dataset. Here we look at how penguin body mass varies across both sex and species (use the provided inputs to filter the dataset by bill length and island):\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"./Data/AllCloudandMetData.csv\").csv({ typed: true })\n\n\n\n\n\n\n\nfiltered = data.filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\nProudly supported by Posit"
-  },
-  {
-    "objectID": "files/CloudWaterAppFile.html",
-    "href": "files/CloudWaterAppFile.html",
-    "title": "Median Cloud Water Concentrations",
-    "section": "",
-    "text": "Explore how the chemistry of Whiteface Mountain cloud water has changed over nearly 3 decades of monitoring. Many changes have occurred over this time period, with the decreasing influence of acid rain and the growing importance of organic carbon."
-  },
-  {
-    "objectID": "files/CV.html",
-    "href": "files/CV.html",
+    "objectID": "Untitled/Untitled.html",
+    "href": "Untitled/Untitled.html",
     "title": "Some stuff about me",
     "section": "",
-    "text": "Some stuff about me\n\nI poisoned myself doing research.\nI was the first woman to win a Nobel prize\nI was the first person and only woman to win a Nobel prize in two different sciences.\n\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                  when    with                where          why      \n  &lt;chr&gt;                 &lt;chr&gt;   &lt;chr&gt;               &lt;chr&gt;          &lt;list&gt;   \n1 Informal studies      1889-91 Flying University   Warsaw, Poland &lt;chr [0]&gt;\n2 Master of Physics     1893    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n3 Master of Mathematics 1894    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n\n\n\n\nNobel Prizes\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  &lt;glue&gt;                   &lt;dbl&gt; &lt;chr&gt;                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…\n\n\n\n\nPublications\n\n\n\nC:/Users/chris/AppData/Local/Temp/Rtmp6Re9DX/file1d7c43f041f4.yaml"
+    "text": "Some stuff about me\n\nI poisoned myself doing research.\nI was the first woman to win a Nobel prize\nI was the first person and only woman to win a Nobel prize in two different sciences.\n\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                  when    with                where          why      \n  &lt;chr&gt;                 &lt;chr&gt;   &lt;chr&gt;               &lt;chr&gt;          &lt;list&gt;   \n1 Informal studies      1889-91 Flying University   Warsaw, Poland &lt;chr [0]&gt;\n2 Master of Physics     1893    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n3 Master of Mathematics 1894    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n\n\n\n\nNobel Prizes\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  &lt;glue&gt;                   &lt;dbl&gt; &lt;chr&gt;                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…\n\n\n\n\nPublications\n\n\n\nC:/Users/chris/AppData/Local/Temp/RtmpgZ9YHY/file66543bd9321b.yaml"
   },
   {
-    "objectID": "files/Publications.html",
-    "href": "files/Publications.html",
-    "title": "Publications and Presentations",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bio",
     "section": "",
-    "text": "Lawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. “Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime.” Atmospheric Chemistry and Physics 23 (2): 1619–39. https://doi.org/10.5194/acp-23-1619-2023.\nLawrence, Christopher, and Huiting Mao. 2019. “Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska.” Atmosphere 10 (4): 187. https://doi.org/10.3390/atmos10040187."
-  },
-  {
-    "objectID": "files/Publications.html#publications",
-    "href": "files/Publications.html#publications",
-    "title": "Publications and Presentations",
-    "section": "",
-    "text": "Lawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. “Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime.” Atmospheric Chemistry and Physics 23 (2): 1619–39. https://doi.org/10.5194/acp-23-1619-2023.\nLawrence, Christopher, and Huiting Mao. 2019. “Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska.” Atmosphere 10 (4): 187. https://doi.org/10.3390/atmos10040187."
-  },
-  {
-    "objectID": "files/Publications.html#presentations",
-    "href": "files/Publications.html#presentations",
-    "title": "Publications and Presentations",
-    "section": "Presentations",
-    "text": "Presentations\n\n\n\n\n\nDate\nTitle\nMeeting\nLocation\nPresentation Type\n\n\n\n\n2023\nInvestigating the Contribution of Cloud Water Chemistry to Organic Acids at Whiteface Mountain\nAmerican Meteorological Society's Annual Meeting\nDenver, CO\nOral Presentation\n\n\n2022\nThe Emerging Role of Organic Carbon in Atmospheric Chemistry at Whiteface Mountain\nNational Atmospheric Depositions Program's Annual Meeting\nKnoxville, TN\nOral Presentation\n\n\n2022\nInvestigating the Chemistry of Water Soluble Organic Gases in Upstate New York Using WRF-Chem and Chemical Box Modeling\nAmerican Meteorological Society's Annual Meeting\nVirtual\nOral Presentation\n\n\n2021\nChanges in Atmospheric Aqueous Chemistry at Whiteface Mountain: Shifting focus from Acid rain\nNational Atmospheric Deposition Program\nVirtual\nOral Presentation\n\n\n2021\nInvestigating Characteristic Air Masses Affecting Organic and Inorganic Cloud Water Composition at Whiteface Mountain Using HYSPLIT and Cluster Analysis\nAmerican Meteorological Society's Annual Meeting\nVirtual\nOral Presentation\n\n\n2020\nEmergence of New Chemical Regime: Growing Abundance of Water Soluble Organic Carbon Associated with a Growing Ion Imbalance\nAmerican Meteorological Society's Annual Meeting\nBoston, MA\nOral Presenation\n\n\n2019\nEmergence of a New Chemical Regime: Growing Abundance of Water Soluble Organics in Cloud Water Linked with a Growing Ion Imbalance\nAmerican Association for Aerosol Research Annual Meeting\nPortland, OR\nPoster\n\n\n2019\nMonitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY\nAmerican Meteorological Society's Annual Meeting\nPhoenix, AZ\nPoster\n\n\n2018\nMonitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY\nNational Atmospheric Deposition Program's Annual Meeting\nAlbany, NY\nPoster"
+    "text": "Hello! My name is Christopher Lawrence. I’m a PhD candidate at the Atmospheric Sciences Research Center (ASRC) at the University of Albany. I assist the Lance Lab with the cloud water monitoring site at the summit of Whiteface Mountain in the Adirondack Mountains. I use observations and modeling techniques to investigate the role of cloud chemical processing on organic carbon in the aqueous and particle phases, and how they interact with other inorganic species. My research interests include biogeochemistry of organic carbon (particularly in the atmospheric aqueous phase), organic carbon and nitrogen interactions, wet deposition, the carbon cycle, and statistics."
   },
   {
     "objectID": "files/ResearchFinal-DESKTOP-M09009T.html",
@@ -77,46 +42,67 @@
     "text": "Chemical Processing of Aqueous Carbon\nThere is a growing segment of reserach"
   },
   {
+    "objectID": "files/Publications.html",
+    "href": "files/Publications.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Lawrence, C., Barth, M., Orlando, J., Casson, P., Brandt, R., Kelting, D., Yerger, E., and Lance, S.: Process Analysis of Elevated Concentrations of Organic Acids at Whiteface Mountain, New York, EGUsphere, 1–30, https://doi.org/10.5194/egusphere-2024-715, 2024.\nLawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. “Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime.” Atmospheric Chemistry and Physics 23 (2): 1619–39. https://doi.org/10.5194/acp-23-1619-2023.\nLawrence, Christopher, and Huiting Mao. 2019. “Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska.” Atmosphere 10 (4): 187. https://doi.org/10.3390/atmos10040187."
+  },
+  {
+    "objectID": "files/Publications.html#publications",
+    "href": "files/Publications.html#publications",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Lawrence, C., Barth, M., Orlando, J., Casson, P., Brandt, R., Kelting, D., Yerger, E., and Lance, S.: Process Analysis of Elevated Concentrations of Organic Acids at Whiteface Mountain, New York, EGUsphere, 1–30, https://doi.org/10.5194/egusphere-2024-715, 2024.\nLawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. “Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime.” Atmospheric Chemistry and Physics 23 (2): 1619–39. https://doi.org/10.5194/acp-23-1619-2023.\nLawrence, Christopher, and Huiting Mao. 2019. “Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska.” Atmosphere 10 (4): 187. https://doi.org/10.3390/atmos10040187."
+  },
+  {
+    "objectID": "files/Publications.html#presentations",
+    "href": "files/Publications.html#presentations",
+    "title": "Publications and Presentations",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\nDate\nTitle\nMeeting\nLocation\nPresentation Type\n\n\n\n\n2023\nImpacts of Transported Wildfire Smoke on the Whiteface Mountain Aqueous Chemical System\nNational Atmospheric Deposition Program's Annaul Meeting\nMadison, WI\nOral Presentation\n\n\n2023\nInvestigating the Contribution of Cloud Water Chemistry to Organic Acids at Whiteface Mountain\nAmerican Meteorological Society's Annual Meeting\nDenver, CO\nOral Presentation\n\n\n2022\nThe Emerging Role of Organic Carbon in Atmospheric Chemistry at Whiteface Mountain\nNational Atmospheric Deposition Program's Annual Meeting\nKnoxville, TN\nOral Presentation\n\n\n2022\nInvestigating the Chemistry of Water Soluble Organic Gases in Upstate New York Using WRF-Chem and Chemical Box Modeling\nAmerican Meteorological Society's Annual Meeting\nVirtual\nOral Presentation\n\n\n2021\nChanges in Atmospheric Aqueous Chemistry at Whiteface Mountain: Shifting focus from Acid rain\nNational Atmospheric Deposition Program\nVirtual\nOral Presentation\n\n\n2021\nInvestigating Characteristic Air Masses Affecting Organic and Inorganic Cloud Water Composition at Whiteface Mountain Using HYSPLIT and Cluster Analysis\nAmerican Meteorological Society's Annual Meeting\nVirtual\nOral Presentation\n\n\n2020\nEmergence of New Chemical Regime: Growing Abundance of Water Soluble Organic Carbon Associated with a Growing Ion Imbalance\nAmerican Meteorological Society's Annual Meeting\nBoston, MA\nOral Presenation\n\n\n2019\nEmergence of a New Chemical Regime: Growing Abundance of Water Soluble Organics in Cloud Water Linked with a Growing Ion Imbalance\nAmerican Association for Aerosol Research Annual Meeting\nPortland, OR\nPoster\n\n\n2019\nMonitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY\nAmerican Meteorological Society's Annual Meeting\nPhoenix, AZ\nPoster\n\n\n2018\nMonitoring Cloud Water Chemistry (including Organics) at Whiteface Mountain, NY\nNational Atmospheric Deposition Program's Annual Meeting\nAlbany, NY\nPoster"
+  },
+  {
+    "objectID": "files/CloudWaterAppFile.html",
+    "href": "files/CloudWaterAppFile.html",
+    "title": "Median Cloud Water Concentrations",
+    "section": "",
+    "text": "Explore how the chemistry of Whiteface Mountain cloud water has changed over nearly 3 decades of monitoring. Many changes have occurred over this time period, with the decreasing influence of acid rain and the growing importance of organic carbon."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "So Why Did You Make This?",
+    "section": "",
+    "text": "Hello! Thanks for visiting Larry Loves Music. My name is Chris Lawrence but a lot of people in my life call me Larry. For a long time, I’ve been pretty obsessed with music. In highschool I had the opportunity to do a research project of my choosing. For whatever, I chose to research the impact the Beatles had on popular music. For this project, I got to spend my lunch periods reading about the Beatles and listening to all kind of music. This triggered an interest in music that I had never felt before and would change the way I listened to music in the future.\n\nMy First List\nFast forward several years. it was approaching finals week in my junior year at SUNY-ESF (go Mighty Oaks!), I unsurprisingly was finding myself in the library quite frequently either studying or working on final class projects. I was looking for something to help things bit more bearable. While procrastinating, I stumbled on to two different music related wesbites. The first was Album of the Year. Album of the year is social network/blog type website not dissimilar to sites like Rate Your Music. However, an important difference that also serves as a database for both reviews from music critics and users of the website. This serves as useful aggregator of what music people are interested in. Since occur in early December, it was also “list season”; where major publications release their lists for the top albums of the year. Album of the Year also compiles this information with point totals to provide a consensus album of the year. I found this whole process incredibly fascinating and a lot of fun, particularly when an album you like is seeing a lot of love.\nThe second outlet is from an NPR podcast that I had already been regularly listening to for about year, All Songs Considered. This is a wonderful music podcast hosted by Bob Boilen (the same person who created Tiny Desk Concerts) and Robin Hilton. They had just released a pod discussing listener picks for the best albums of the year. For whatever reason, I found (and still find this…) fascinating. This got me thinking about what my favorite albums of the past year were and inspired me to make my own list. I then wrote down some 30 albums, and listened to each one during finals week and picked my 10 favorites. This was the beginning of a yearly tradition at the end of the year where I listen to a barrage of music to make my list.\n\n\nGoing Forward\nThis website has 3 major purpose:\n\nCompile all of my lists and playlists into one place for ease of access\nImprove coding and writing skills with a website/pseudoblog project\nMake it easier to share my favorite music with a potentially larger audience\n\nThis website is a major work in process. I’m still working out many bugs in the website, filling out its contents, and just making things look pretty. I will be constantly be editing things as there will no doubt be typos everywhere. I’m also not particularly adept of this style of writing so this a learning experience for me. I absolutely would love to hear any suggestions from people on what else I should do for this website. I’m thinking about a blog as well but not sure what exactly to blog about. Stay tuned!"
+  },
+  {
+    "objectID": "AnotherTestOJS.html",
+    "href": "AnotherTestOJS.html",
+    "title": "Penguins",
+    "section": "",
+    "text": "A simple example based on Allison Horst’s Palmer Penguins dataset. Here we look at how penguin body mass varies across both sex and species (use the provided inputs to filter the dataset by bill length and island):\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"./Data/AllCloudandMetData.csv\").csv({ typed: true })\n\n\n\n\n\n\n\nfiltered = data.filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\nProudly supported by Posit"
+  },
+  {
+    "objectID": "files/CV.html",
+    "href": "files/CV.html",
+    "title": "Some stuff about me",
+    "section": "",
+    "text": "Some stuff about me\n\nI poisoned myself doing research.\nI was the first woman to win a Nobel prize\nI was the first person and only woman to win a Nobel prize in two different sciences.\n\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                  when    with                where          why      \n  &lt;chr&gt;                 &lt;chr&gt;   &lt;chr&gt;               &lt;chr&gt;          &lt;list&gt;   \n1 Informal studies      1889-91 Flying University   Warsaw, Poland &lt;chr [0]&gt;\n2 Master of Physics     1893    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n3 Master of Mathematics 1894    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n\n\n\n\nNobel Prizes\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  &lt;glue&gt;                   &lt;dbl&gt; &lt;chr&gt;                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…\n\n\n\n\nPublications\n\n\n\nC:/Users/chris/AppData/Local/Temp/RtmpyCWVLM/file81b83c356cbe.yaml"
+  },
+  {
     "objectID": "files/ResearchFinal.html",
     "href": "files/ResearchFinal.html",
     "title": "Current Research",
     "section": "",
-    "text": "I help assist the cloud water monitoring program at the summit of Whiteface Mountain that has been operating since 1994. The site was founded to monitor acid deposition and the progress of the Clean Air Act Amendments of the 1990s. Acid deposition is cause by the formation for strong inorganic acids such has sulfuric acid (H2SO4) and nitric acid (HNO3). In particular, sulfuric acid largely produced from sulfur dioxide (SO2) , a gas released from the combustion of coal. Thanks to regulation, acid deposition has decreased signficantly and Adirondack ecosystems are starting to show signs of recovery. However, another class of compounds may be on the rise: organic carbon. Organic carbon is a complex class of molecules that are the fundamental building blocks of life. As sulfuric acid and nitric acid have decreased, organic carbon is making a larger fraction of particulate matter."
+    "text": "Clouds cover vast areas of the Earth’s atmosphere and tightly coupled to precipitation, regulating our climate, and interacts and changes the atmosphere’s chemical composition. The role of cloud water chemistry was first discovered in 1970s as acid rain was negatively ecosystems in places like the Northeast United States and Europe, leaving lakes fishless and causing widespread decline of tree species like the red spruce. After research projects was discovered that unique chemistry chemistry occurring in cloud droplets converts gases like sulfur dioxide (SO2) released during the combustion of fossil like coal, to acidic compounds like sulfuric acid (H2SO4). These negative impacts on ecosystems helped shape the Clean Air Act Amendments in 1990s, aimed at reducing emissions of harmful pollutants like SO2 and to great success!\nThe cloud water monitoring program at Whiteface Mountain has been operating between June-September since 1994, founded to monitor the progress of the Clean Air Act Amendments."
   },
   {
-    "objectID": "files/ResearchFinal.html#cloud-water-monitoring-program",
-    "href": "files/ResearchFinal.html#cloud-water-monitoring-program",
+    "objectID": "files/ResearchFinal.html#cloud-water-chemistry-at-whiteface-mountain-monitoring-the-atmospheres-rapidly-changing-chemistry",
+    "href": "files/ResearchFinal.html#cloud-water-chemistry-at-whiteface-mountain-monitoring-the-atmospheres-rapidly-changing-chemistry",
     "title": "Current Research",
     "section": "",
-    "text": "I help assist the cloud water monitoring program at the summit of Whiteface Mountain that has been operating since 1994. The site was founded to monitor acid deposition and the progress of the Clean Air Act Amendments of the 1990s. Acid deposition is cause by the formation for strong inorganic acids such has sulfuric acid (H2SO4) and nitric acid (HNO3). In particular, sulfuric acid largely produced from sulfur dioxide (SO2) , a gas released from the combustion of coal. Thanks to regulation, acid deposition has decreased signficantly and Adirondack ecosystems are starting to show signs of recovery. However, another class of compounds may be on the rise: organic carbon. Organic carbon is a complex class of molecules that are the fundamental building blocks of life. As sulfuric acid and nitric acid have decreased, organic carbon is making a larger fraction of particulate matter."
-  },
-  {
-    "objectID": "files/ResearchFinal.html#organic-acid-measurements",
-    "href": "files/ResearchFinal.html#organic-acid-measurements",
-    "title": "Current Research",
-    "section": "Organic Acid Measurements",
-    "text": "Organic Acid Measurements"
-  },
-  {
-    "objectID": "files/ResearchFinal.html#source-apportionment",
-    "href": "files/ResearchFinal.html#source-apportionment",
-    "title": "Current Research",
-    "section": "Source Apportionment",
-    "text": "Source Apportionment"
-  },
-  {
-    "objectID": "files/ResearchFinal.html#cloud-water-chemical-modeling",
-    "href": "files/ResearchFinal.html#cloud-water-chemical-modeling",
-    "title": "Current Research",
-    "section": "Cloud Water Chemical Modeling",
-    "text": "Cloud Water Chemical Modeling"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bio",
-    "section": "",
-    "text": "Hello! My name is Christopher Lawrence. I’m a PhD candidate at the Atmospheric Sciences Research Center (ASRC) at the University of Albany. I assist the Lance Lab with the cloud water monitoring site at the summit of Whiteface Mountain in the Adirondack Mountains. I use observations and modeling techniques to investigate the role of cloud chemical processing on organic carbon in the aqueous and particle phases, and how they interact with other inorganic species. My research interests include biogeochemistry of organic carbon (particularly in the atmospheric aqueous phase), organic carbon and nitrogen interactions, wet deposition, the carbon cycle, and statistics."
+    "text": "Clouds cover vast areas of the Earth’s atmosphere and tightly coupled to precipitation, regulating our climate, and interacts and changes the atmosphere’s chemical composition. The role of cloud water chemistry was first discovered in 1970s as acid rain was negatively ecosystems in places like the Northeast United States and Europe, leaving lakes fishless and causing widespread decline of tree species like the red spruce. After research projects was discovered that unique chemistry chemistry occurring in cloud droplets converts gases like sulfur dioxide (SO2) released during the combustion of fossil like coal, to acidic compounds like sulfuric acid (H2SO4). These negative impacts on ecosystems helped shape the Clean Air Act Amendments in 1990s, aimed at reducing emissions of harmful pollutants like SO2 and to great success!\nThe cloud water monitoring program at Whiteface Mountain has been operating between June-September since 1994, founded to monitor the progress of the Clean Air Act Amendments."
   },
   {
     "objectID": "TestOJS.html",
@@ -124,12 +110,5 @@
     "title": "TestObservable",
     "section": "",
     "text": "library(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.4     ✔ purrr   1.0.2\n✔ tibble  3.2.1     ✔ dplyr   1.1.2\n✔ tidyr   1.2.0     ✔ stringr 1.4.1\n✔ readr   2.1.2     ✔ forcats 0.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\n\nWarning: package 'tibble' was built under R version 4.2.3\n\n\nWarning: package 'purrr' was built under R version 4.2.3\n\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nco2 = read_csv(\"co2_mm.csv\")  %&gt;% \n  group_by(year) %&gt;% \n  summarize(mean = mean(average))\n\nRows: 783 Columns: 8\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\ndbl (8): year, month, decimal date, average, deseasonalized, ndays, sdev, unc\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nojs_define(co2data = co2)\n\n\nyearlyChart = Plot.plot({\n  marks: [\n    Plot.line(transpose(co2data), \n      {x:\"year\", y:\"mean\", stroke:\"red\"}, \n    Plot.frame())\n  ],\n  grid: true,\n  style: {backgroundColor:'offwhite',\n    \n  }\n  \n})\n\n\n\n\n\n\n\nlibrary(plotly)\n\nWarning: package 'plotly' was built under R version 4.2.2\n\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\nlibrary(palmerpenguins)\n\nWarning: package 'palmerpenguins' was built under R version 4.2.3\n\nplot_ly(data = penguins, x = ~bill_length_mm, y = ~bill_depth_mm)\n\nNo trace type specified:\n  Based on info supplied, a 'scatter' trace seems appropriate.\n  Read more about this trace type -&gt; https://plotly.com/r/reference/#scatter\n\n\nNo scatter mode specifed:\n  Setting the mode to markers\n  Read more about this attribute -&gt; https://plotly.com/r/reference/#scatter-mode\n\n\nWarning: Ignoring 2 observations\n\n\n\n\n\n\n\nheight = 60\nlength= 100\n\nviewof greenLength = html`&lt;input type=\"range\" min=\"0\" max=\"800\" value=\"50\"&gt;&lt;/input&gt;`\n\nhtml`&lt;div style=\"width: ${greenLength}px; height: ${height}px; background-color: blue;\"&gt;&lt;/div&gt;`"
-  },
-  {
-    "objectID": "Untitled/Untitled.html",
-    "href": "Untitled/Untitled.html",
-    "title": "Some stuff about me",
-    "section": "",
-    "text": "Some stuff about me\n\nI poisoned myself doing research.\nI was the first woman to win a Nobel prize\nI was the first person and only woman to win a Nobel prize in two different sciences.\n\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                  when    with                where          why      \n  &lt;chr&gt;                 &lt;chr&gt;   &lt;chr&gt;               &lt;chr&gt;          &lt;list&gt;   \n1 Informal studies      1889-91 Flying University   Warsaw, Poland &lt;chr [0]&gt;\n2 Master of Physics     1893    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n3 Master of Mathematics 1894    Sorbonne Université Paris, France  &lt;chr [0]&gt;\n\n\n\n\nNobel Prizes\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  &lt;glue&gt;                   &lt;dbl&gt; &lt;chr&gt;                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…\n\n\n\n\nPublications\n\n\n\nC:/Users/chris/AppData/Local/Temp/RtmpywNnPO/file147023a85363.yaml"
   }
 ]

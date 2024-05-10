@@ -11,7 +11,7 @@ website:
         text: Home
       - href: ./files/Research.qmd
         text: Research
-      - href: ./files/2PageCV.pdf
+      - href: ./files/2_Page_CV.pdf
         text: Resume
       - href: ./files/Publications.qmd
         text: Papers and Presentations

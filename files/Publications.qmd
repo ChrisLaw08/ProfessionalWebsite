@@ -15,6 +15,8 @@ library(kableExtra)
 
 ## Publications
 
+Lawrence, C., Barth, M., Orlando, J., Casson, P., Brandt, R., Kelting, D., Yerger, E., and Lance, S.: Process Analysis of Elevated Concentrations of Organic Acids at Whiteface Mountain, New York, EGUsphere, 1--30, <https://doi.org/10.5194/egusphere-2024-715>, 2024.
+
 Lawrence, Christopher E., Paul Casson, Richard Brandt, James J. Schwab, James E. Dukett, Phil Snyder, Elizabeth Yerger, Daniel Kelting, Trevor C. VandenBoer, and Sara Lance. 2023. "Long-Term Monitoring of Cloud Water Chemistry at Whiteface Mountain: The Emergence of a New Chemical Regime." *Atmospheric Chemistry and Physics* 23 (2): 1619--39. <https://doi.org/10.5194/acp-23-1619-2023>.
 
 Lawrence, Christopher, and Huiting Mao. 2019. "Anthropogenic and Natural Factors Affecting Trends in Atmospheric Methane in Barrow, Alaska." *Atmosphere* 10 (4): 187. <https://doi.org/10.3390/atmos10040187>.
@@ -23,8 +25,9 @@ Lawrence, Christopher, and Huiting Mao. 2019. "Anthropogenic and Natural Factors
 
 ```{r}
 Table<-tribble(~Date, ~Title, ~Meeting, ~Location, ~`Presentation Type`,
+  2023, "Impacts of Transported Wildfire Smoke on the Whiteface Mountain Aqueous Chemical System", "National Atmospheric Deposition Program's Annaul Meeting", "Madison, WI", "Oral Presentation",
   2023,"Investigating the Contribution of Cloud Water Chemistry to Organic Acids at Whiteface Mountain", "American Meteorological Society's Annual Meeting", "Denver, CO", "Oral Presentation",
-  2022, "The Emerging Role of Organic Carbon in Atmospheric Chemistry at Whiteface Mountain", "National Atmospheric Depositions Program's Annual Meeting", "Knoxville, TN", "Oral Presentation",
+  2022, "The Emerging Role of Organic Carbon in Atmospheric Chemistry at Whiteface Mountain", "National Atmospheric Deposition Program's Annual Meeting", "Knoxville, TN", "Oral Presentation",
   2022, "Investigating the Chemistry of Water Soluble Organic Gases in Upstate New York Using WRF-Chem and Chemical Box Modeling",  "American Meteorological Society's Annual Meeting", "Virtual", "Oral Presentation",
   2021, "Changes in Atmospheric Aqueous Chemistry at Whiteface Mountain:  Shifting focus from Acid rain", "National Atmospheric Deposition Program", "Virtual", "Oral Presentation",
   2021, "Investigating Characteristic Air Masses Affecting Organic and Inorganic Cloud Water Composition at Whiteface Mountain Using HYSPLIT and Cluster Analysis", "American Meteorological Society's Annual Meeting", "Virtual", "Oral Presentation",
